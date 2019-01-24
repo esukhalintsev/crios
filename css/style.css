@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 18px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-container {
+    margin: 0 auto;
+    max-width: 2000px;
+}
+
+.navigation-list {
+    padding-top: 57px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 174px;
+}
+
+.navigation-list button {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #e2e2e2;
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 65px 0px #dae5ef;
+    transition-duration: 0.6s;
+    cursor: pointer;
+}
+.navigation-list button:hover,
+.logo-area:hover{
+    box-shadow: 0px 5px 15px grey;
+}
+
+.logo-link {
+    position: absolute;
+    top: 300px;
+    right: 135px;
+    color: #43a9ff;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.logo-area {
+    position: absolute;
+    top: -220px;
+     width: 414px;
+    height: 412px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 65px 0px rgba(218, 229, 239, 0.55);
+    transition-duration: 0.6s;
+    cursor: pointer;
+   
+}
+
+.promo {
+    text-align: center;
+    line-height: 18px;
+    font-weight: 800;
+    background: url(../img/Photo.jpg) no-repeat;
+    height: 1133px;
+}
+
+.promo h1,
+.features h2 {
+    font-size: 48px;
+    padding-bottom: 66px;
+}
+
+.promo h2,
+.features b {
+    color: grey;
+    padding-bottom: 84px;
+}
+
+.btn {
+    border-radius: 22px;
+    border: 1px solid #e2e2e2;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 35px 0px rgba(218, 229, 239, 0.35);
+    padding: 20px 40px 20px 40px;
+    transition-duration: 0.6s;
+}
+
+.btn:hover {
+    box-shadow: 0px 3px 15px grey;
+}
+
+.features {
+    text-align: center;
+    line-height: 18px;
+    font-weight: 800;
+    margin-bottom: 96px;
+}
+
+.features h2 {
+    padding-top: 22px;
+    padding-bottom: 90px;
+}
+
+.features-list {
+    list-style: none;
+    display: flex;
+    padding-bottom: 95px;
+}
+
+.features-list li {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    justify-content: center;
+}
+
+.features-list svg {
+    margin: 0 auto;
+    margin-bottom: 37px;
+}
+
+.features-list h3 {
+    padding-bottom: 43px;
+}
+
+.features-list p {
+    color: grey;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.reason-section {
+    display: flex;
+}
+
+.reason-text h2,
+.mobile-text h2 {
+    padding: 192px 0px 44px 118px;
+    font-size: 48px;
+}
+
+.reason-text p,
+.mobile-text p {
+    padding: 0px 192px 192px 118px;
+    line-height: 36px;
+    word-wrap: break-word;
+    color: grey;
+    font-size: 16px;
+}
+
+.wood {
+    background: url(../img/wood.jpg) no-repeat;
+    background-size: auto;
+    background-position: right;
+}
+
+.road {
+    background: url(../img/road.jpg) no-repeat;
+    background-size: auto;
+    background-position: left;
+    flex-direction: row-reverse;
+}
+
+.reason-text {
+    width: 50%;
+    background-color: #f7f8fb;
+}
+
+.mobile-section,
+.template-section {
+    display: flex;
+}
+
+.mobile-text {
+    width: 50%;
+}
+
+.mobile-text h2 {
+    color: #43a9ff;
+    font-size: 48px;
+    padding: 292px 0px 44px 0px;
+    text-align: left;
+}
+
+.mobile-text p {
+    text-align: left;
+    vertical-align: middle;
+    padding: 0px 220px 0px 0px;
+}
+
+.mobile-section img {
+    margin: 0 auto;
+}
+
+.right .mobile-text h2,
+.right .mobile-text p {
+    padding-right: 90px;
+    text-align: right;
+}
+
+.right .mobile-text p {
+    padding: 0px 0px 0px 220px;
+}
+
+.left {
+    background: url(../img/snowflake-1.png) no-repeat;
+    background-position: top left;
+    background-size: auto
+}
+
+.right {
+    flex-direction: row-reverse;
+    background: url(../img/snowflake-2.png) no-repeat;
+    background-position: right top;
+    background-size: auto
+}
+
+.template-section {
+    margin-bottom: 134px;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #f7f8fb;
+    background: url(../img/person.jpg) no-repeat;
+}
+
+.template-text {
+    width: 50%;
+}
+
+.template-text h2 {
+    padding-top: 213px;
+    padding-bottom: 44px;
+    color: #fe3254;
+    font-size: 48px;
+}
+
+.template-text p {
+    padding-right: 400px;
+    padding-bottom: 80px;
+    line-height: 36px;
+    text-align: left;
+    word-wrap: break-word;
+    color: grey;
+}
+
+.template-text b {
+    font-size: 18px;
+}
+
+footer {
+    margin: 0 auto;
+    text-align: center;
+    background: url(../img/village.jpg) no-repeat;
+    height: 1100px;
+}
+
+footer b {
+    margin-bottom: 22px;
+    color: grey;
+    font-size: 18px;
+}
+
+footer h2 {
+    padding-top: 22px;
+    padding-bottom: 112px;
+    font-size: 48px;
+}
